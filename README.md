@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/yosaddis-green)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Books Store in React
 
-## Available Scripts
+## 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 Overview](#about-project)
+  - [Project Objectives](#project-objectives)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Overview <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**[math magician]** is a Single Page Application (SPA) that stores and shows books and their catagories with the aim of using react and redux with API.
 
-### `npm test`
+### Project Objectives <a name="project-objectives"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] set up the environment and tools needed to develop a React application and Routing
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [react](https://react.dev/)
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com)
+- [Stylelint](https://stylelint.io/)
+- [ESLint](https://eslint.org/)
+- [sass](https://sass-lang.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [react router](https://reactrouter.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- [x] Setting up a react app.
+- [x] Add all necessary components.
+- [x] Add routing.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Live Demo [Coming soon](#)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Optional] Install git bash to your machine to enable you to clone this repo.
+- install Visual Studio to be able to host a local live version.
+- Install a browser to view the local live version.
 
-## Learn More
+To get a local copy up and running follow these simple example steps.
+### Setup <a name="setup"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Open your GitHub account the repository's [link](https://github.com/yosaddis/Book-store-react)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites <a name="prerequisites"></a>
 
-### Code Splitting
+- Internet connection
+- A github account
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Install <a name="install"></a>
 
-### Analyzing the Bundle Size
+- copy the repo's link and clone it by writing `git clone https://github.com/yosaddis/Book-store-react.git` on your git bash terminal.
+- `npm install` to install the dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run tests <a name="run-tests"></a>
 
-### Making a Progressive Web App
+- You can check for errors by running linter tests found in the github flows.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Deployment <a name="deployment"></a>
 
-### Advanced Configuration
+- run `npm run start` to run it locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors <a name="authors"></a>
 
-### Deployment
+👤 **Yoseph Addisu**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [GitHub](https://github.com/yosaddis)
+- [Twitter](https://twitter.com/yosaddis)
 
-### `npm run build` fails to minify
+## 🔭 Future Features <a name="future-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- start using Redux on the project.
+- Use API to get Books
+- Add styling following the given design
+- deploy in github pages
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
+
+- [Microverse](https://www.microverse.org/)
+
+## 📝 License <a name="license"></a>
+This project is [MIT](./LICENSE) licensed.
