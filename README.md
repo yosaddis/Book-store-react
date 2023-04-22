@@ -51,6 +51,7 @@
 - [x] Add all necessary components.
 - [x] Add routing.
 - [x] Add Redux to the project.
+- [x] Use API to get and add Books.
 
 
 #Live Demo [Coming soon](#)
@@ -94,7 +95,6 @@ To get a local copy up and running follow these simple example steps.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Use API to get Books
 - Add styling following the given design
 - deploy in github pages
 
