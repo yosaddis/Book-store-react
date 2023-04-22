@@ -51,8 +51,8 @@
 - [x] Add all necessary components.
 - [x] Add routing.
 - [x] Add Redux to the project.
-- [x] Use API to get and add Books.
-
+- [x] Use API to fetch, add and delete Books.
+- [x] Add styling following the given zipline design.
 
 #Live Demo [Coming soon](#)
 
@@ -94,8 +94,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- Add styling following the given design
 - deploy in github pages
 
 ## 🤝 Contributing <a name="contributing"></a>
