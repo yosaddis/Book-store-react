@@ -12,8 +12,11 @@ const BooksLogic = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (newBook !== '' && newAuthor !== '') {
-      dispatch(addBook({ title: newBook, author: newAuthor, id: uuid() }));
+      dispatch(addBook({
+        item_id: uuid(), title: newBook, author: newAuthor, category: 'undefined',
+      }));
       setState(false);
+      event.target.reset();
     } else {
       setState(true);
     }
@@ -40,10 +43,5 @@ const BooksLogic = () => {
     </div>
   );
 };
-
-// BooksLogic.propTypes = {
-//  books: PropTypes.instanceOf(Array).isRequired,
-//  setBooks: PropTypes.func.isRequired,
-// };
 
 export default BooksLogic;

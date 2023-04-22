@@ -1,10 +1,18 @@
-// import { useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import BooksForm from './BooksForm';
 import Book from './Book';
+import { fetchBooks } from '../redux/books/booksSlice';
 
 const Logic = () => {
-  const books = useSelector((state) => state.books);
+  const dispatch = useDispatch();
+  const { books, counter } = useSelector((state) => state.books);
+
+  useEffect(
+    () => {
+      dispatch(fetchBooks());
+    }, [dispatch, counter],
+  );
 
   const showBooks = () => {
     if (books.length === 0) {
@@ -16,12 +24,12 @@ const Logic = () => {
     }
     return (
       <div>
-        {books.map((book) => (
+        {Object.keys(books).map((book) => (
           <Book
-            key={book.title}
-            id={book.id}
-            title={book.title}
-            author={book.author}
+            key={book}
+            id={book}
+            title={books[book][0].title}
+            author={books[book][0].author}
           />
         ))}
       </div>
