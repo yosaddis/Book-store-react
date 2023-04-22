@@ -54,8 +54,6 @@
 - [x] Use API to fetch, add and delete Books.
 - [x] Add styling following the given zipline design.
 
-#Live Demo [Coming soon](#)
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 - [Optional] Install git bash to your machine to enable you to clone this repo.
