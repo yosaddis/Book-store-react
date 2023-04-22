@@ -23,7 +23,7 @@ const Logic = () => {
       );
     }
     return (
-      <div>
+      <div className="booksList">
         {Object.keys(books).map((book) => (
           <Book
             key={book}
@@ -39,6 +39,7 @@ const Logic = () => {
   return (
     <div className="App">
       {showBooks()}
+      <div className="horizontal-divider" />
       <BooksForm />
     </div>
   );

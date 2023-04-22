@@ -25,11 +25,11 @@
 
 ## 📖 Overview <a name="about-project"></a>
 
-**[math magician]** is a Single Page Application (SPA) that stores and shows books and their catagories with the aim of using react and redux with API.
+**[Book Store ]** is a Single Page Application (SPA) that stores and shows books and their catagories with the aim of using react and redux with API.
 
 ### Project Objectives <a name="project-objectives"></a>
 
-- [x] set up the environment and tools needed to develop a React application and Routing
+- [x] Develop a React application that uses Redux with API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,10 +51,8 @@
 - [x] Add all necessary components.
 - [x] Add routing.
 - [x] Add Redux to the project.
-- [x] Use API to get and add Books.
-
-
-#Live Demo [Coming soon](#)
+- [x] Use API to fetch, add and delete Books.
+- [x] Add styling following the given Zeplin's design.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -94,8 +92,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- Add styling following the given design
 - deploy in github pages
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -113,4 +109,4 @@ Give a ⭐️ if you like this project!
 - [Microverse](https://www.microverse.org/)
 
 ## 📝 License <a name="license"></a>
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.

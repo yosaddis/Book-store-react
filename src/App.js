@@ -3,7 +3,6 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Categories from './components/Categories';
 import NotMatch from './components/NoMatch';
-import './App.css';
 
 const App = () => (
   <Routes>

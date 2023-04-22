@@ -31,13 +31,14 @@ const BooksLogic = () => {
       setNewAuthor(event.target.value.trim());
     }
   };
-  const handleError = () => (state ? 'Please insert Book title and author ' : '');
+  const handleError = () => (state ? 'Please insert book title and author ' : '');
   return (
-    <div className="divForm">
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Book title" onChange={handleTitle} />
-        <input type="text" placeholder="author" onChange={handleAuthor} />
-        <button type="submit">Add book</button>
+    <div className="BookForm">
+      <h3 className="add-book-form-title">ADD NEW BOOK</h3>
+      <form onSubmit={handleSubmit} className="form">
+        <input className="input" type="text" placeholder="Book title" onChange={handleTitle} />
+        <input className="input" type="text" placeholder="Author" onChange={handleAuthor} />
+        <button className="form-btn" type="submit">ADD BOOK</button>
       </form>
       <p>{handleError()}</p>
     </div>
