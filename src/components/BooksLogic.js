@@ -1,8 +1,10 @@
-import { useState } from 'react';
+// import { useState } from 'react';
+import { useSelector } from 'react-redux';
 import BooksForm from './BooksForm';
+import Book from './Book';
 
 const Logic = () => {
-  const [books, setBooks] = useState([]);
+  const books = useSelector((state) => state.books);
 
   const showBooks = () => {
     if (books.length === 0) {
@@ -15,18 +17,12 @@ const Logic = () => {
     return (
       <div>
         {books.map((book) => (
-          <ul key={book.id}>
-            <li>
-              {' '}
-              name =
-              {book.name}
-            </li>
-            <li>
-              {' '}
-              author=
-              {book.author}
-            </li>
-          </ul>
+          <Book
+            key={book.title}
+            id={book.id}
+            title={book.title}
+            author={book.author}
+          />
         ))}
       </div>
     );
@@ -35,7 +31,7 @@ const Logic = () => {
   return (
     <div className="App">
       {showBooks()}
-      <BooksForm books={books} setBooks={setBooks} />
+      <BooksForm />
     </div>
   );
 };

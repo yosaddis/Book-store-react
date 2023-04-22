@@ -1,18 +1,18 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import uuid from 'react-uuid';
+import { addBook } from '../redux/books/booksSlice';
 
-const BooksLogic = ({ books, setBooks }) => {
+const BooksLogic = () => {
   const [newBook, setNewBook] = useState('');
   const [newAuthor, setNewAuthor] = useState('');
   const [state, setState] = useState(false);
+  const dispatch = useDispatch();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     if (newBook !== '' && newAuthor !== '') {
-      const newArr = [...books];
-      newArr.push({ name: newBook, author: newAuthor, id: uuid() });
-      setBooks(newArr);
+      dispatch(addBook({ title: newBook, author: newAuthor, id: uuid() }));
       setState(false);
     } else {
       setState(true);
@@ -41,9 +41,9 @@ const BooksLogic = ({ books, setBooks }) => {
   );
 };
 
-BooksLogic.propTypes = {
-  books: PropTypes.instanceOf(Array).isRequired,
-  setBooks: PropTypes.func.isRequired,
-};
+// BooksLogic.propTypes = {
+//  books: PropTypes.instanceOf(Array).isRequired,
+//  setBooks: PropTypes.func.isRequired,
+// };
 
 export default BooksLogic;
