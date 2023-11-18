@@ -18,6 +18,7 @@ function Nav() {
       <button
         type="button"
         className="menu-btn"
+        alt="button"
       >
         <BsFillPersonFill className="menu-btn-icon" />
       </button>
