@@ -6,12 +6,12 @@
   --pale-grey: #f5f6fa;
   --menu-face: {
     font-family: 'Montserrat', 'Courier New', Courier, monospace;
-    src: url('https: //fonts.googleapis.com/css?family=Montserrat:400,700');
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
   };
   --book-face: {
     font-family: 'RobotoSlab', 'Courier New', Courier, monospace;
-    src: url('https: //fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-  }
+    src: url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+  };
 }
 
 * {
