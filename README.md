@@ -22,7 +22,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 ## 📖 Overview <a name="about-project"></a>
 
 **[Book Store ]** is a Single Page Application (SPA) that stores and shows books and their catagories with the aim of using react and redux with API.
@@ -61,6 +60,7 @@
 - Install a browser to view the local live version.
 
 To get a local copy up and running follow these simple example steps.
+
 ### Setup <a name="setup"></a>
 
 - Open your GitHub account the repository's [link](https://github.com/yosaddis/Book-store-react)
@@ -89,6 +89,7 @@ To get a local copy up and running follow these simple example steps.
 
 - [GitHub](https://github.com/yosaddis)
 - [Twitter](https://twitter.com/yosaddis)
+- Portfolio: [Portfolio](https:https://yoseph-portfolio.onrender.com/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -109,4 +110,5 @@ Give a ⭐️ if you like this project!
 - [Microverse](https://www.microverse.org/)
 
 ## 📝 License <a name="license"></a>
+
 This project is [MIT](./LICENSE.md) licensed.
